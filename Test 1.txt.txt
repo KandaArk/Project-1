@@ -1,2 +1,18 @@
 Bukreev Andrey
 Bukreev Andrey
+
+
+#include<stdio.h> 
+#include<stdlib.h> 
+include<math.h>    
+void main()  
+{
+	system("Chcp 1251");
+	const double pi = 3.14;
+	double R,S; 
+	printf("ведите радиус круга ");
+	scanf("%lf", &R); 
+	S = pi*pow(R,2); 
+	printf("площадь круга ровна %.2lf", S); 
+} 
+
